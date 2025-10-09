@@ -1,2 +1,2 @@
-# Web-Tech-Project
+# Web-Tech-Assignment
 
