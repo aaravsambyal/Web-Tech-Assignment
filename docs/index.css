@@ -1,9 +1,9 @@
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background: linear-gradient(135deg, #f87132 0%, #fcef3a 100%);
+    background: linear-gradient(135deg,  #db2d16 0%, #f8ea22 100%);
     margin: 0;
     padding: 0;
-
+    
 }
 
 h1, p {
@@ -28,7 +28,7 @@ a:hover {
 
 #image:hover{
     width: 360px;
-    box-shadow: 0 4px 10px #f84ab0;
+    box-shadow: 0 4px 10px #c51ea9;
     transition: 0.3s;
     
 }
