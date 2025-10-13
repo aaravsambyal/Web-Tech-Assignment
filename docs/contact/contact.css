@@ -61,6 +61,7 @@ input{
     border-radius: 5px;
     border: 2px solid #9b2587;
     box-sizing: border-box;
+    
 }
 
 input:hover{
@@ -76,6 +77,7 @@ button{
     border-radius: 5px;
     border: 1px solid #ccc;
     box-sizing: border-box;
+    cursor: pointer;
 }
 
 button:hover{
