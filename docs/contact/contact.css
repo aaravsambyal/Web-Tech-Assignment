@@ -92,3 +92,8 @@ footer {
     background: rgba(2, 0, 0, 0.849);
     color: whitesmoke;
 }
+
+#info{
+    background-color: rgba(0, 0, 0, 0.658);
+    color: white;
+}
