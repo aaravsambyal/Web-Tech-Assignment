@@ -35,9 +35,9 @@
             <h2>Contact Us</h2>
             <h3>We would love to hear from you!</h3>
 
-            <form action="contact">
+            <form action="contact.php" method="POST">
                 <label for="name"><b>Name</b></label><br>
-                <input type="text" placeholder="your name..."><br><br>
+                <input type="text" placeholder="your name..." name="name"><br><br>
 
                 <label for="email"><b>Email</b></label><br>
                 <input type="email" name="email" id="email" placeholder="your email..."><br><br>
@@ -63,8 +63,18 @@
     <footer>
         <p>© 2025 SpiceHub</p>
     </footer>
+    <?php
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $phone = $_POST['phone'];
+    $address = $_POST['address'];
 
-
+    echo "Registration Successful";
+    echo "$name <br>";
+    echo "$email <br>";
+    echo "$phone <br>";
+    echo "$address <br>";
+    ?>
 </body>
 
 </html>
